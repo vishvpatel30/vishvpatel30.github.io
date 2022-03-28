@@ -68,6 +68,47 @@ var typed = new Typed(".typing-2", {
     backSpeed: 60,
     loop: true
 });
+//---------------------------------------
+
+// 'use strict';
+
+// const modal= document.querySelector('.modal');
+
+// const btnshowmodal = document.querySelectorAll('.show-modal');
+// const btnclosemodal = document.querySelector('.close-modal');
+
+// const overlay = document.querySelector('.overlay');
+
+// const openmodal = function(){
+//     modal.classList.remove('hidden');
+//     overlay.classList.remove('hidden');
+// }
+
+// const closemodal = function(){
+//     modal.classList.add('hidden');
+//     overlay.classList.add('hidden');
+// }
+
+// for (let i=0; i<btnshowmodal.length ; i++){
+//     //console.log(btnshowmodal[i]);
+
+//     btnshowmodal[i].addEventListener('click',openmodal);
+    
+// }
+
+// btnclosemodal.addEventListener('click', closemodal);
+// overlay.addEventListener('click', closemodal);
+
+
+// document.addEventListener('keydown', function(e){
+//     //console.log('a key pressed');
+//     console.log(e);
+
+//     if(e.key=='Escape'){
+//         // hidden not then
+//         closemodal();
+//     }
+// });
 
 // $(document).ready(function(){
 //     $(window).scroll(function(){
